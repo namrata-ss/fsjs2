@@ -1,2 +1,45 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+.container{
+    margin: 20px 60px;
+ }
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-container img{
+    width: 80px;
+    height: 30px;
+}
+.list{
+    display: flex;
+}
+.list-item{
+    list-style: none;
+    margin-left: 20px;
+}
+.button-group .nav-button{
+    padding: 10px 15px;
+    background-color: #5A20CB;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+}
+.banner-container .nav-button{
+    padding: 15px 30px;
+    background-color: #5A20CB;
+    color: white;
+    border: none;
+    border-radius: 7px;  
+}
+.heading-text{
+    font-size: 50px;
+}
+.heading-text span{
+color: blueviolet;
+}
+
