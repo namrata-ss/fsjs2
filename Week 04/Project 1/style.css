@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: #f7eded;
+}
+.navbar{
+    display: flex;
+    padding: 20px 10%;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    list-style: none;
+    margin-left: 20px;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-text{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.left-banner{
+    width: 40%;
+}
+.banner-btn{
+    padding: 8px 10px;
+    border: none;
+    background-color: #1C8D73;
+    color: white;
+    border-radius: 7px;
+    margin-top: 10px;
+}
