@@ -1,2 +1,103 @@
 /* You can not modify anything from the HTML file */
 /* You can only modify the CSS file */
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.list{
+    display: flex;
+}
+.list-item{
+    list-style: none;
+    margin-left: 40px;
+}
+.button-group{
+    display: flex;
+}
+.navbar-container img{
+    height: 70%;
+    width: 70%;
+}
+.nav-button{
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.hero-container{
+    padding-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.square{
+    position: absolute;
+    left: 20%;
+    top: 75%;
+    order: 1;
+    height: 60%;
+    z-index: -1;
+}
+.globe{
+    order: 3;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+.star{
+    order: 4;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+.hero-container-right{
+    order: 5;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+}
+.hero-heading{
+    font-size: 60px;
+}
+.hero-container-right button{
+    margin-top: 40px;
+    align-items: center;
+}
+.hero-description{
+    margin-left: 40px;
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+.contact-heading{
+    margin-left: 60px;
+}
+.icons{
+    margin-left: 60px;
+}
+.button-email{
+    margin-left: 40px;  
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.button-join{
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.contact-heading{
+    margin-top: 60px;
+}
